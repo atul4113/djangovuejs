@@ -8,6 +8,7 @@ from .serializers import JobsSerializer
 def job_list(request):
     context = {}
     context['jobs'] = JobList.objects.all()
+    print(context)
 
     html = TemplateResponse(request, 'joblist.html', context)
     return HttpResponse(html.render())
@@ -18,3 +19,4 @@ class JobsViewSet(viewsets.ModelViewSet):
     """
     queryset = JobList.objects.all()
     serializer_class = JobsSerializer
+    print(queryset)

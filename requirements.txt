@@ -1,3 +1,11 @@
+\automium==0.2.6
+automium-web==0.1.1
+Click==7.0
 Django==1.9.5
 djangorestframework==3.3.3
-wheel==0.24.0
+Flask==1.0.2
+itsdangerous==1.1.0
+Jinja2==2.10
+legacy==0.1.6
+MarkupSafe==1.1.0
+Werkzeug==0.14.1
